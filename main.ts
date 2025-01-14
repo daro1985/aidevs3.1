@@ -1,4 +1,4 @@
-import { spawn } from 'child_process';
+import { spawn } from 'node:child_process';
 
 const serverService = spawn('ts-node', ['./task19/serverService.ts']);
 
