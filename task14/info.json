@@ -1,0 +1,105 @@
+{
+  "people": [
+    {
+      "name": "BARBARA",
+      "data": {
+        "code": 0,
+        "message": "[**RESTRICTED DATA**]"
+      }
+    },
+    {
+      "name": "ALEKSANDER",
+      "data": {
+        "code": 0,
+        "message": "KRAKOW LUBLIN WARSZAWA"
+      }
+    },
+    {
+      "name": "ANDRZEJ",
+      "data": {
+        "code": 0,
+        "message": "WARSZAWA GRUDZIADZ"
+      }
+    },
+    {
+      "name": "RAFAL",
+      "data": {
+        "code": 0,
+        "message": "GRUDZIADZ WARSZAWA LUBLIN"
+      }
+    },
+    {
+      "name": "ADAM",
+      "data": {
+        "code": 0,
+        "message": "KRAKOW CIECHOCINEK"
+      }
+    },
+    {
+      "name": "AZAZEL",
+      "data": {
+        "code": 0,
+        "message": "GRUDZIADZ WARSZAWA KRAKOW LUBLIN ELBLAG"
+      }
+    },
+    {
+      "name": "GABRIEL",
+      "data": {
+        "code": 0,
+        "message": "FROMBORK"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "KRAKOW",
+      "data": {
+        "code": 0,
+        "message": "ALEKSANDER BARBARA ADAM"
+      }
+    },
+    {
+      "name": "WARSZAWA",
+      "data": {
+        "code": 0,
+        "message": "RAFAŁ ALEKSANDER ANDRZEJ"
+      }
+    },
+    {
+      "name": "LUBLIN",
+      "data": {
+        "code": 0,
+        "message": "[**RESTRICTED DATA**]"
+      }
+    },
+    {
+      "name": "GRUDZIADZ",
+      "data": {
+        "code": 0,
+        "message": "RAFAL AZAZEL"
+      }
+    },
+    {
+      "name": "CIECHOCINEK",
+      "data": {
+        "code": 0,
+        "message": "ADAM GABRIEL"
+      }
+    },
+    {
+      "name": "ELBLAG",
+      "data": {
+        "code": 0,
+        "message": "BARBARA"
+      }
+    },
+    {
+      "name": "FROMBORK",
+      "data": {
+        "code": 0,
+        "message": "GABRIEL ARTUR AZAZEL"
+      }
+    }
+  ],
+  "document": "\"Podczas pobytu w Krakowie w 2019 roku, Barbara Zawadzka poznała swojego ówczesnego narzeczonego, a obecnie męża, Aleksandra Ragowskiego. Tam też poznali osobę prawdopodobnie powiązaną z ruchem oporu, której dane nie są nam znane. Istnieje podejrzenie, że już wtedy pracowali oni nad planami ograniczenia rozwoju sztucznej inteligencji, tłumacząc to względami bezpieczeństwa. Tajemniczy osobnik zajmował się także organizacją spotkań mających na celu podnoszenie wiedzy na temat wykorzystania sztucznej inteligencji przez programistów. Na spotkania te uczęszczała także Barbara.\\n\\nW okolicach 2021 roku Ragowski udał się do Warszawy celem spotkania z profesorem Andrzejem Majem. Prawdopodobnie nie zabrał ze sobą żony, a cel ich spotkania nie jest do końca jasny.\\n\\nPodczas pobytu w Warszawie, w instytucie profesora doszło do incydentu, w wyniku którego, jeden z laborantów - Rafał Bomba - zaginął. Niepotwierdzone źródła informacji podają jednak, że Rafał spędził około 2 lata, wynajmując pokój w pewnym hotelu. Dlaczego zniknął?  Przed kim się ukrywał? Z kim kontaktował się przez ten czas i dlaczego ujawnił się po tym czasie? Na te pytania nie znamy odpowiedzi, ale agenci starają się uzupełnić brakujące informacje.\\n\\nIstnieje podejrzenie, że Rafał mógł być powiązany z ruchem oporu. Prawdopodobnie przekazał on notatki profesora Maja w ręce Ragowskiego, a ten po powrocie do Krakowa mógł przekazać je swojej żonie. Z tego powodu uwaga naszej jednostki skupia się na odnalezieniu Barbary.\\n\\nAktualne miejsce pobytu Barbary Zawadzkiej nie jest znane. Przypuszczamy jednak, że nie opuściła ona kraju.\\n\""
+}
