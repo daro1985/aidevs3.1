@@ -1,9 +1,9 @@
 import express, { Request, Response, NextFunction } from 'express';
-import path from 'node:path';
+import * as path from 'node:path';
 import dotenv from 'dotenv';
 import axios from 'axios';
 import { whatsBelow } from './mapService';
-import util from 'node:util';
+import * as util from 'node:util';
 dotenv.config();
 
 const app = express();
