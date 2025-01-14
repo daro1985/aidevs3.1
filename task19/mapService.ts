@@ -1,4 +1,4 @@
-import { llmCallChat } from "@/commons/llmapi";
+import { llmCallChat } from "../commons/llmapi";
 import { whereIsTheDroneMessege } from "./prompts";
 
 export async function whatsBelow(instructions: string) {
