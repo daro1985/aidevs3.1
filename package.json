@@ -36,8 +36,8 @@
     "readable-stream": "^2.3.8",
     "safe-buffer": "^5.1.2",
     "string_decoder": "^1.1.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
     "undici-types": "^6.20.0",
     "universalify": "^2.0.1",
     "unzipper": "^0.12.3",
@@ -50,7 +50,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node task11/app.ts"
+    "start": "ts-node src/task19/serverService.ts",
+    "dev": "nodemon src/task19/serverService.ts"
   },
   "keywords": [],
   "author": "",
