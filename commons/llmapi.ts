@@ -1,6 +1,6 @@
-import OpenAI from "#/openai";
-import type { ChatCompletionCreateParams } from "#/openai/resources/chat/completions";
-import dotenv from "#/dotenv";
+import OpenAI from "openai";
+import type { ChatCompletionCreateParams } from "openai/resources/chat/completions";
+import dotenv from "dotenv";
 
 dotenv.config();
 
