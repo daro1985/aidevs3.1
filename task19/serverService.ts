@@ -15,7 +15,7 @@ export async function startServer() {
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
-    app.use(express.static(path.join(__dirname, '../public')));
+ //   app.use(express.static(path.join(__dirname, '../public')));
 
     app.get('/', (req: Request, res: Response) => {
         res.send('Server is running...');
