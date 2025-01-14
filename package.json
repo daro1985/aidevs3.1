@@ -50,8 +50,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/task19/serverService.ts",
-    "dev": "nodemon src/task19/serverService.ts"
+    "start": "ts-node task19/serverService.ts",
+    "dev": "nodemon task19/serverService.ts"
   },
   "keywords": [],
   "author": "",
