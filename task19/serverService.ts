@@ -22,7 +22,7 @@ export async function startServer() {
     });
 
     app.get('/start', async (req: Request, res: Response) => {
-        const response = await axios.post('http://localhost:3003/chat', {
+        const response = await axios.post(`http://localhost:${port}/chat`, {
             instructions: "Poleciałem maksymalnie w lewo, a potem na sam dół."
         });
         
