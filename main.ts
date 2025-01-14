@@ -1,4 +1,4 @@
-import { startServer } from './task19/serverService';
+import { startServer } from './task19/serverService2';
 
 try {
    startServer();
