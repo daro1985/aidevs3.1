@@ -1,7 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
-import fs from 'fs/promises';
 import axios from 'axios';
 import { whatsBelow } from './mapService';
 import * as util from 'node:util';
