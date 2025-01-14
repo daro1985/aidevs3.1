@@ -1,6 +1,6 @@
 import OpenAI from "openai";
-import type { ChatCompletionMessageParam } from "openai/resources";
-import dotenv from 'dotenv';
+import type { ChatCompletionCreateParams } from "openai/resources/chat/completions";
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -8,6 +8,8 @@ const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY
     });
 
+// Use ChatCompletionCreateParams.Message instead of ChatCompletionMessageParam
+type ChatCompletionMessageParam = ChatCompletionCreateParams.Message;
 
 async function llmCall(data: string, systemPrompt: string, userPrompt: string) {
 

@@ -8,6 +8,11 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "allowImportingTsExtensions": true,
-      "noEmit": true
+      "noEmit": true,
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "paths": {
+          "*": ["node_modules/*"]
+      }
     }
   }
