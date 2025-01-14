@@ -23,11 +23,11 @@ export async function startServer() {
     });
 
     app.get('/start', async (req: Request, res: Response) => {
-        const response = await axios.post(`http://${host}:${port}/chat`, {
+        const response = await axios.post(`https://${host}:${port}/chat`, {
             instructions: "Poleciałem maksymalnie w lewo, a potem na sam dół."
         });
-    
-        res.send(response.data);
+        console.log("#dziala#");
+        res.send("Response: " + response.data);
     });
 
     app.post('/chat', async (req: Request, res: Response) => {
