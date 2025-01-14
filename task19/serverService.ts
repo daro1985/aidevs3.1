@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import fs from 'fs/promises';
 import axios from 'axios';
 import { whatsBelow } from './mapService';
-import * as util from 'util';
+import * as util from 'node:util';
 dotenv.config();
 
 const app = express();
