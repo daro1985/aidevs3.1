@@ -1,6 +1,6 @@
 import OpenAI from "openai";
-import type { ChatCompletionCreateParams } from "openai/resources/chat/completions";
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
+import { ChatCompletionMessageParam } from "openai/resources/chat/completions";
 
 dotenv.config();
 
@@ -8,8 +8,6 @@ const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY
     });
 
-// Use ChatCompletionCreateParams.Message instead of ChatCompletionMessageParam
-type ChatCompletionMessageParam = ChatCompletionCreateParams.Message;
 
 async function llmCall(data: string, systemPrompt: string, userPrompt: string) {
 
@@ -98,7 +96,7 @@ async function llmCallChat(messages: ChatCompletionMessageParam[], prompt: strin
         ],
         response_format: { type: mode },
     });
-    //console.log("###llmCallChat response", response.choices[0].message.content);
+    console.log("###llmCallChat response", response.choices[0].message.content);
     return response.choices[0].message.content;
 }
 
