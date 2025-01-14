@@ -1,8 +1,8 @@
 import express, { Request, Response, NextFunction } from 'express';
 import * as path from 'node:path';
 import dotenv from 'dotenv';
-import axios from 'axios';
-import { whatsBelow } from './mapService';
+import axios from 'axios';  
+import { whatsBelow } from './mapService.ts';
 import * as util from 'node:util';
 
 
