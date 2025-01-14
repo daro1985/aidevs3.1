@@ -12,6 +12,7 @@ export async function startServer() {
 
     const app = express();
     const port = process.env.PORT || 3000;
+    const host = process.env.HOST || "localhost";
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
@@ -22,10 +23,10 @@ export async function startServer() {
     });
 
     app.get('/start', async (req: Request, res: Response) => {
-        const response = await axios.post(`http://localhost:${port}/chat`, {
+        const response = await axios.post(`http://${host}:${port}/chat`, {
             instructions: "Poleciałem maksymalnie w lewo, a potem na sam dół."
         });
-        
+    
         res.send(response.data);
     });
 
