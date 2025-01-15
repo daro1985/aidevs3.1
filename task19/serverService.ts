@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import axios from 'axios';  
 import { whatsBelow } from './mapService.ts';
 import * as util from 'node:util';
+import { captureFlag } from '../commons/answer.ts';
 
 
 export async function startServer() {
@@ -13,6 +14,7 @@ export async function startServer() {
     const app = express();
     const port = process.env.PORT || 3000;
     const host = process.env.HOST || "localhost";
+    const endpoint = `https://${host}/chat`
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
@@ -23,11 +25,13 @@ export async function startServer() {
     });
 
     app.get('/start', async (req: Request, res: Response) => {
-        const response = await axios.post(`https://${host}/chat`, {
-            instructions: "Poleciałem maksymalnie w lewo, a potem na sam dół."
-        });
-        console.log("#dziala#");
-        res.send("Response: " + response.data);
+        // const response = await axios.post(`https://${host}/chat`, {
+        //     instructions: "Poleciałem maksymalnie w lewo, a potem na sam dół."
+        // });
+        // console.log("#dziala#");
+        const response = await captureFlag("webhook",endpoint)
+        console.log("Response:", response);
+        res.send("Endpoint sent: " + response);
     });
 
     app.post('/chat', async (req: Request, res: Response) => {
