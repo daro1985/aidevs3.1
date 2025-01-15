@@ -37,7 +37,7 @@ export async function startServer() {
     app.post('/chat', async (req: Request, res: Response) => {
         console.log("####Req:", util.inspect(req.body, { depth: null, colors: true }));
         try {
-            const response = await whatsBelow(req.body.instructions);    
+            const response = await whatsBelow(req.body.instruction);    
             console.log("####Response:", util.inspect(response, { depth: null, colors: true }));
             res.send(response);
         } catch (error) {
